@@ -17,6 +17,8 @@ This project is a simple REST API built using Python. The API connects to a Post
 
 ## Requirements
 - Python >= 3.9+
-- PostgreSQL database or any RDBM or NoSQL (e.g., NeonDB)
+- PostgreSQL database or any RDBMS or NoSQL (e.g., NeonDB)
 - At least one POST method to create a record in the DB.
+- Simple unit test.
 - Create a PR from this repo.
+  
