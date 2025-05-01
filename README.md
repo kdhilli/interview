@@ -7,6 +7,7 @@ This project is a simple REST API built using Python. The API connects to a Post
 - PostgreSQL database integration or any database.
 - Optional asynchronous functionality
 - Optional poetry if you are comfortable
+- ORM tools would be nice.
 - RUN_README for setup and running would be nice.
 
 ## Getting Started
