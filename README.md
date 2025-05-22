@@ -1,25 +1,17 @@
-# Interview Project
+# MongoDB REST API
 
-This project is a simple REST API built using Python. The API connects to a PostgreSQL database, and asynchronous functionality is optional. You can use any open-source PostgreSQL provider, such as NeonDB.
+This project is a simple REST API built using Python and FastAPI. It connects to a MongoDB database and supports asynchronous functionality.
 
 ## Features
-- REST API using Python
-- PostgreSQL database integration or any database.
-- Optional asynchronous functionality
-- Optional poetry if you are comfortable
-- ORM tools would be nice.
-- RUN_README for setup and running would be nice.
-
-## Getting Started
-1. Clone the repository.
-2. Set up a PostgreSQL database (e.g., NeonDB).
-3. Install the required dependencies.
-4. Run the API server.
+- REST API using FastAPI
+- MongoDB database integration
+- Asynchronous functionality
+- Unit tests
 
 ## Requirements
-- Python >= 3.9+
-- PostgreSQL database or any RDBMS or NoSQL (e.g., NeonDB)
-- At least one POST method to create a record in the DB.
-- Simple unit test.
-- Create a PR from this repo.
-  
+- Python >= 3.9
+- MongoDB database
+- FastAPI, Motor, and other dependencies (see `requirements.txt`)
+
+## Getting Started
+Follow the instructions in `RUN_README.md` to set up and run the project.
